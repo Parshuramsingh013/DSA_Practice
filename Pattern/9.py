@@ -1,9 +1,11 @@
 """
 Printing for this pattern
-
            *
          * * *
-       * * * * *  
+       * * * * * 
+       * * * * *
+         * * * 
+           *  
 """
 n = 4
 
