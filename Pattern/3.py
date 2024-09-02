@@ -1,3 +1,13 @@
+"""
+Printing for this pattern
+        1
+        1 2 
+        1 2 3
+        1 2 3 4
+
+"""
+
+
 n = 4
 
 for i in range(1,n+1):
