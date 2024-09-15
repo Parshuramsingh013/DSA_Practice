@@ -2,6 +2,8 @@ n = 3
 
 
 
+
+
 size = 2 * n - 1 
 
 for i in range(size):
