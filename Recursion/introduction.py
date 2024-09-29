@@ -1,8 +1,8 @@
-# def ajit():
-#     print("1")
-#     ajit()
+def ajit():
+    print("1")
+    ajit()
 
-# ajit()
+ajit()
 
 
 count = 0
