@@ -1,18 +1,18 @@
-def ajit():
-    print("1")
-    ajit()
+# def ajit():
+#     print("1")
+#     ajit()
 
-ajit()
+# ajit()
 
 
-count = 0
+count = 1
 
-def ajit():
+def ajit(n):
     global count
-    if count == 4:
+    if count == n+1:
         return
     print(count)
     count += 1
-    ajit()
+    ajit(n)
 
-ajit()
+ajit(10)
