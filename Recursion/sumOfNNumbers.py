@@ -1,4 +1,4 @@
-    ## Sum of n Numbers
+    ## Sum of n Numbers Parametrized way
 
 n = int(input("enter the the number you want to print: "))
 
