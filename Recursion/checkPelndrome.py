@@ -2,6 +2,7 @@
 
 name = "aya"
 
+
 def checkPelindrome(i,n):
     if i > n//2:
         return True
