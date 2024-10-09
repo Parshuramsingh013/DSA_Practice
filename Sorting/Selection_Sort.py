@@ -13,4 +13,5 @@ for i in range(0,n-1):
             min = j
     arr[min], arr[i] = arr[i],arr[min]
 
+
 print(f'sorted array : ',arr)
