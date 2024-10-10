@@ -1,3 +1,6 @@
+## Selection Sort
+
+
 n = int(input("Enter the number of elements : "))
 
 arr = []
@@ -5,6 +8,7 @@ arr = []
 for i in range(n):
     elemet = int(input(f"enter the element {i+1}: "))
     arr.append(elemet)
+
 
 for i in range(0,n-1):
     min = i
