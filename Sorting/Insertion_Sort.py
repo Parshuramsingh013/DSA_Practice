@@ -1,4 +1,4 @@
-## Insertion sort
+## Insertion Sort
 
 n = int(input("Enter the number of element of the array : "))
 
