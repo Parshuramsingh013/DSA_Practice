@@ -1,6 +1,7 @@
 ## remove Duplication from sorted array
 
 
+
 arr = [1,1,2,2,2,3,3]
 
 i = 0
