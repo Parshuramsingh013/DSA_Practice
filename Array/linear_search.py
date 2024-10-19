@@ -1,10 +1,13 @@
-arr = [1,5,6,7,4,9,8]
-n = len(arr)
-f = 8
+class Solution:
+    def linear_search(self,arr,N,K):
+        for i in range(N):
+            if arr [i] == K:
+                return True
+        else:
+            return False
 
+arr = [1,2,3,4,8,9]        
+s1 = Solution()
 
-if f in arr:
-    print(arr.index(f))
-
-else:
-    print("this number is not found in the array")
+result = s1.linear_search(arr, len(arr), 7)
+print(result)
