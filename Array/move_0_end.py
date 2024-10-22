@@ -1,6 +1,7 @@
 arr = [1,2,0,2,3,0,0,5,0,8]
 n = len (arr)
 
+
 j = -1
 
 for i in range(n):
