@@ -3,6 +3,7 @@ class Solution:
         N = len(nums)
         sum =  (N*(N+1))//2
 
+
         sum2 =  0
         for i in range(N):
             sum2 += nums[i]
