@@ -6,6 +6,7 @@ class Solution:
         j = 0
         output = []
 
+
         while i < n1 and j < n2:
             if a[i] <= b[j]:
                 if len(output) == 0 or output[-1] != a[i]:
