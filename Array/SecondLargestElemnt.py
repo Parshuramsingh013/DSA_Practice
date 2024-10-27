@@ -22,6 +22,7 @@ for i in range(len(arr)):
     if arr[i] > largest:
         secondLargets = largest
         largest = arr[i]
+        
     elif arr[i] > secondLargets and arr[i] != largest:
         secondLargets = arr[i]
 
