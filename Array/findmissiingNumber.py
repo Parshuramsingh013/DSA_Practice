@@ -1,4 +1,5 @@
 class Solution:
+    
     def missingNumber(self, nums):
         N = len(nums)
         sum =  (N*(N+1))//2
