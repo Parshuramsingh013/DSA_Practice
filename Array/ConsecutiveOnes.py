@@ -2,6 +2,7 @@ arr = [1,1,0,1,1,1,0,1,1]
 
 count = 0
 max = 0 
+
 n = len(arr)
 
 for i in range(n):
