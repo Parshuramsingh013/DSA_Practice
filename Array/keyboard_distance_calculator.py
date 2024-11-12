@@ -1,5 +1,6 @@
 def create_keyboard_map():
     keyboard_map = {}
+    
     keyboard = [
         ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
         ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
