@@ -15,6 +15,7 @@ def find_combinations(index, current_list, current_sum, target_sum, max_length, 
     current_list.pop()
     find_combinations(index + 1, current_list, current_sum, target_sum, max_length, nums, results)
 
+
 # input values
 nums = [17, 9, 8, 6, 5, 3, 2, 1]
 target_sum = 17
