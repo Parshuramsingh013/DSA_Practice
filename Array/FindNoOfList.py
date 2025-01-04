@@ -4,6 +4,7 @@ def find_combinations(index, current_list, current_sum, target_sum, max_length, 
         results.append(current_list[:])
         return
     
+    
     # stop recursion if index is out of bounds or max size is exceeded
     if index >= len(nums) or len(current_list) > max_length:
         return
