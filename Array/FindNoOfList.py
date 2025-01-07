@@ -13,6 +13,7 @@ def find_combinations(index, current_list, current_sum, target_sum, max_length, 
     # include the current number
     current_list.append(nums[index])
     find_combinations(index + 1, current_list, current_sum + nums[index], target_sum, max_length, nums, results)
+    
     # backtrack and exclude the current number
     current_list.pop()
     find_combinations(index + 1, current_list, current_sum, target_sum, max_length, nums, results)
